@@ -11,6 +11,8 @@ from openpyxl.styles import PatternFill
 import configparser
 import logging
 import argparse
+from flask import Flask
+app = Flask(__name__)
 
 # Lista para armazenar mensagens de erro e aviso
 error_report_messages = []
