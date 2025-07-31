@@ -1,16 +1,18 @@
-# Dependências do projeto - Sistema de Fechamento PDF
-
-# Processamento de dados e planilhas Excel
-pandas>=1.5.0
-
-# Extração de dados de arquivos PDF
-pdfplumber>=0.7.0
-
-# Manipulação avançada de planilhas Excel (fórmulas)
-openpyxl>=3.1.0
-
-# Interface gráfica (já vem com Python, mas pode ser necessário em alguns ambientes)
-# tkinter  # Comentado pois geralmente já está incluído
-
-# Opcional: Para melhor formatação de logs
-# colorama>=0.4.0
+cffi==1.17.1
+charset-normalizer==3.4.2
+cryptography==45.0.3
+et_xmlfile==2.0.0
+gunicorn==23.0.0
+numpy==2.2.6
+openpyxl==3.1.5
+packaging==25.0
+pandas==2.2.3
+pdfminer.six==20250327
+pdfplumber==0.11.6
+pillow==11.2.1
+pycparser==2.22
+pypdfium2==4.30.1
+python-dateutil==2.9.0.post0
+pytz==2025.2
+six==1.17.0
+tzdata==2025.2
